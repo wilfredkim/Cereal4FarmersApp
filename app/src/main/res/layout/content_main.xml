@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newsss"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gilbert.myproject.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+ <!--&lt;!&ndash; <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">&ndash;&gt;
+   &lt;!&ndash; <ImageView
+        android:layout_width="100dp"
+
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/ireg"
+        android:src="@drawable/reg"
+        />&ndash;&gt;
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+
+        android:gravity="center"
+        android:text="Register"></Button>
+
+   &lt;!&ndash; <ImageView
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+
+        android:id="@+id/inews"
+        android:src="@drawable/news"
+        />&ndash;&gt;
+    <Button
+        android:id="@+id/btn_news"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+
+        android:gravity="center"
+        android:layout_below="@+id/btn_reg"
+        android:text="View News"></Button>
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+
+        android:gravity="center"
+        android:layout_below="@+id/btn_news"
+        android:text="View Menu"></Button>
+    <Button
+        android:id="@+id/btn_fert"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+
+        android:gravity="center"
+        android:layout_below="@+id/btn_menu"
+        android:text="Make Fertilizers Order"></Button>
+    <Button
+        android:id="@+id/btn_seed"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+
+        android:gravity="center"
+        android:layout_below="@+id/btn_fert"
+        android:text="Make Seeds Order"></Button>
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+
+        android:gravity="center"
+        android:layout_below="@+id/btn_seed"
+        android:text="Make Payments"></Button>-->
+    <android.support.v4.widget.SwipeRefreshLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/swipeContainer"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+    <ListView android:id="@+id/eventlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_marginTop="10dp"
+        android:divider="#000000"
+        android:dividerHeight="1dp"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!-- </LinearLayout>-->
+
+  <!--</ScrollView>-->
+</RelativeLayout>

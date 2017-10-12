@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gilbert.myproject.TermsActivity"
+    tools:showIn="@layout/activity_terms">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help"
+                android:layout_marginTop="40sp"
+                android:textSize="20sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginLeft="15sp"
+                android:text="1.Farmers must be registered inorder to use services like making order.
+                              2.Registration must be approved by Admin
+                              2.Farmers must provided total landsize and cultivation size.Any cheating will lead to banned from our services.
+                              3.Field officer will verify whether the sizes stated is true.
+                              4.Orders made should be equivalent to size to cultivation land or less.ie 1 bag per 1 acre.
+                              4.Payment must be made for products ordered .
+                                                                                 "/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help2" android:layout_marginTop="40sp"
+                android:textSize="20sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginLeft="15sp"
+                android:text="If you want further clarification please contact wilfredkim5@gmail.com"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
